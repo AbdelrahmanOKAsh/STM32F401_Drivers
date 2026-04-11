@@ -26,6 +26,12 @@ typedef long double f128;			/* 16bytes=128bit */
 #define NULL      '\0'
 #define TIME_OUT         20000
 
+#define STD_OFF  0
+#define STD_ON   1 
+
+#define CLEAR    0
+#define SET      1
+
 typedef enum
 {
     /* SPECIFIED VALIDATION CODES */

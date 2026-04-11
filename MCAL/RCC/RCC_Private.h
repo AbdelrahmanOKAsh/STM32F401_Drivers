@@ -241,7 +241,7 @@ typedef union APB2RENR_REGISTER
     u32 TIM11EN:1;
     u32 RESERVED4:13;
     u32 REG;
-}APB2RENR_REG;
+}APB2ENR_REG;
 
 /* RCC AHB1LPENR REGISTER */
 typedef union AHB1LPENR_REGISTER
@@ -403,7 +403,7 @@ typedef struct RCC_REGISTERFILE
     volatile AHB2ENR_REG AHB2ENR;
     volatile u32 RESERVED2[2];
     volatile APB1ENR_REG APB1ENR;
-    volatile APB2RENR_REG APB2RENR;
+    volatile APB2ENR_REG APB2ENR;
     volatile u32 RESERVED3[2];
     volatile AHB1LPENR_REG AHB1LPENR;
     volatile AHB2LPENR_REG AHB2LPENR;

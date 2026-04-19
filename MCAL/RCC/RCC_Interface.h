@@ -67,8 +67,8 @@
 
 
 /* MCO2 OUTPUT CLOCK INTERFACE OPTIONs */
-#define MCO2_CLOCK_HSI                   0b00
-#define MCO2_CLOCK_LSE                   0b01
+#define MCO2_CLOCK_SYSCLOCK              0b00
+#define MCO2_CLOCK_PLLI2S                0b01
 #define MCO2_CLOCK_HSE                   0b10
 #define MCO2_CLOCK_PLL                   0b11
 
